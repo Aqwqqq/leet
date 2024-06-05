@@ -12,11 +12,14 @@ root: index
 
 parts:
 - caption: Chapters
-   numbered: true
-   maxdepth: 3
-   chapters:
-   - file: book/markdown
-   - file: book/notebooks
-   - file: book/bibliography
-#- caption: easy
- # chapters:
+  numbered: true
+  maxdepth: 7
+  chapters:
+  - file: book/bibliography
+  - file: book/markdown
+- caption: easy
+  numbered: true
+  maxdepth: 7
+  chapters:
+  - file: book/easy/0001两数之和
+  - file: book/easy/notebooks
